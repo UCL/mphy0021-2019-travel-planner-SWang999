@@ -10,11 +10,3 @@ install:
 script: 
  - pytest ./travelplanner/tests
  - python3 -m doctest ./travelplanner/__init__.py
-deploy:
-  provider: pypi
-  user: ShouyiWang19     # pypi user
-  password: Wsy907501712  # pypi password
-  on:
-    tags: False
-    branch: master
-    python: 3.7
