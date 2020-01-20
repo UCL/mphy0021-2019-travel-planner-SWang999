@@ -11,7 +11,7 @@ setup(
     description="Arrange a best trip for passengers\
         with different speed and destination",
     author='Shouyi',
-    author_email='907501712@qq.com',
+    author_email='ucapswa@ucl.ac.uk',
     long_description=long_description,
     long_description_content_type="text/markdown",
     install_requires=('numpy', 'matplotlib'),
